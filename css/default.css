@@ -15,6 +15,14 @@ body {
   font-size: 1.6rem;
 }
 
+strong {
+  color: #5500ff;
+}
+
+small {
+  opacity: 0.5;
+}
+
 header {
   border-bottom: 0.2rem solid #000;
 }
@@ -49,6 +57,15 @@ h1 {
 
 h2 {
   font-size: 2rem;
+}
+
+h1, h2, h3, h4 {
+  color: rgb(25,0,50);
+}
+
+a {
+  color: rgb(0,0,0);
+  text-decoration: italic;
 }
 
 main {

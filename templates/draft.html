@@ -1,6 +1,8 @@
 <article>
     <section class="header">
-        posted on $date$
+        $if(date)$
+            Draft created on $date$
+        $endif$
         $if(author)$
             by $author$
         $endif$
