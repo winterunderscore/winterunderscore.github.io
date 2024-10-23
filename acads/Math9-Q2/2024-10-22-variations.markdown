@@ -23,7 +23,12 @@ title: Variations
 Direct variation produces pairs of two numbers in which their **ratio remains constant**.
 
 The formula used to describe direct variation is as follows:  
-$y = kx$  
+$$
+\begin{gather*}
+y = kx, \\
+\text{where $k$ is the constant of variation}
+\end{gather*}
+$$
 where $k$ is the constant of variation
 
 It can be phrased as the following:  
@@ -33,9 +38,8 @@ It can be phrased as the following:
 - $y$ is proportional to $x$
 
 Using this formula, we can derive the formulas for the other variables, $k$ and $x$:  
-$k = \frac{y}{x}$  
-$x = \frac{y}{k}$  
-<small>I havent setup LaTeX yet, so i cant render fractions properly yet.</small>
+$$k = \frac{y}{x}$$
+$$x = \frac{y}{k}$$  
 
 For two quantities $x$ and $y$, an **increase** in $x$ results in an **increase** in $y$ and vice versa.
 
@@ -45,12 +49,14 @@ For two quantities $x$ and $y$, an **increase** in $x$ results in an **increase*
     a. What is the constant of variation $k$?
     b. What is the value of $y$ when $x = 25$?
     c. What is the value of $x$ when $y = 9$?
-2. Given that 
+2. 
+3. 
+4. 
+5. 
+#todo
 
 
 ### Solutions <a name="direct-solutions"></a>
-I highly recommend attempting to solve the problems yourself before looking at my mediocre solutions.
-That being said, here it is.
 
 <details>
    <summary>Click to expand</summary> 
@@ -64,19 +70,28 @@ That being said, here it is.
 Inverse variation produces pairs of two numbers whose **product is constant**.
 
 The formula used to describe inverse variation is as follows:  
-$y = \frac{k}{x}$  
-where $k$ is the constant of variation  
+$$
+\begin{gather*}
+y = \frac{k}{x}, \\
+\text{where $k$ is the constant of variation}
+\end{gather*}
+$$
 
 It can be phrased as: $y$ varies inversely as $x$
 
 Using this formula, we can derive the formulas for the other variables, $k$ and $x$:  
-$k = xy$  
-$x = \frac{k}{y}$
+$$k = xy$$
+$$x = \frac{k}{y}$$
 
 For two quantities $x$ and $y$, an **increase** in $x$ results in a **decrease** in $y$ and vice versa.
 
 ### Exercises <a name="inverse-exercises"></a>
 
+1. 
+2. 
+3. 
+4. 
+5. 
 #todo
 
 ### Solutions <a name="inverse-solutions"></a>
@@ -93,20 +108,29 @@ For two quantities $x$ and $y$, an **increase** in $x$ results in a **decrease**
 Joint variation is similar to direct variation, except it **involves more than 2 variables**.
 
 The formula used to describe joint variation is as follows:  
-$a = kbc$  
-where $k$ is the constant of variation
+$$
+\begin{gather*}
+a = kbc, \\
+\text{where $k$ is the constant of variation}
+\end{gather*}
+$$
 
-It can be phrased as: x varies jointly as b and c
+It can be phrased as: $x$ varies jointly as $b$ and $c$
 
 Using this formula, we can derive the formulas for the other variables, $k$, $b$ and $c$  
-$k = \frac{a}{bc}$  
-$b = \frac{a}{kc}$  
-$c = \frac{a}{kb}$
+$$k = \frac{a}{bc}$$
+$$b = \frac{a}{kc}$$
+$$c = \frac{a}{kb}$$
 
 For three quantities $a$, $b$ and $c$, an **increase** in either one of them results in an **increase in the other two**.
 
 ### Exercises <a name="joint-exercises"></a>
 
+1. 
+2. 
+3. 
+4. 
+5. 
 #todo
 
 ### Solutions <a name="joint-solutions"></a>
@@ -123,14 +147,18 @@ For three quantities $a$, $b$ and $c$, an **increase** in either one of them res
 Combined variation **combines both direct and inverse variations**, thus the name.
 
 The formula used to describe combined variation is as follows:  
-$t = \frac{kx}{y}$
-
-It can phrased as: t varies directly as x and inversely as y
+$$
+\begin{gather*}
+t = \frac{kx}{y}, \\
+\text{where $k$ is the constant of variation}
+\end{gather*}
+$$
+It can phrased as: $t$ varies directly as $x$ and inversely as $y$
 
 Using this, we can derive the formulas for the other variables, $k$, $x$ and $y$  
-$k = \frac{ty}{x}$  
-$x = \frac{ty}{k}$  
-$y = \frac{kx}{t}$
+$$k = \frac{ty}{x}$$
+$$x = \frac{ty}{k}$$
+$$y = \frac{kx}{t}$$
 
 For three quantities, $t$, $x$ and $y$:
 
@@ -141,6 +169,11 @@ For three quantities, $t$, $x$ and $y$:
 
 ### Exercises <a name="combined-exercises"></a>
 
+1. 
+2. 
+3. 
+4. 
+5. 
 #todo
 
 ### Solutions <a name="combined-solutions"></a>
