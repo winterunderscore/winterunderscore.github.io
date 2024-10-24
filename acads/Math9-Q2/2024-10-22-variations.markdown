@@ -58,9 +58,24 @@ For two quantities $x$ and $y$, an **increase** in $x$ results in an **increase*
 
 ### Solutions <a name="direct-solutions"></a>
 
-<details>
-   <summary>Click to expand</summary> 
-   I havent solved anything yet, do it urself.
+<details open>
+    <summary>Click to expand</summary> 
+    $$
+    \require{mathtools}
+    \text{Problem 1.} \\
+    \begin{align}
+        k &= \frac{x}{y}\tag{1.a} \\
+         &= \frac{35}{7} \\
+        \Aboxed{k &= 5} \\
+        \\ 
+        y &= \frac{k}{x}\tag{1.b} \\
+         &= \frac{5}{25} \\
+        \Aboxed{y &= \frac{1}{5}} \\
+        \\
+        x &= \frac{k}{y}\tag{1.c} \\
+        \Aboxed{x &= \frac{5}{9}} \\
+    \end{align}
+    $$
 </details>
 
 ---
