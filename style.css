@@ -23,11 +23,6 @@ body {
         padding-left: 10px;
 } 
 
-.contents {
-        display: flex;
-        gap: 2px;
-}
-
 .invert {
         background-color: #000;
         color: #fff;
@@ -37,6 +32,7 @@ body {
         background-color: #000;
         color: #fff;
         padding-left: 2px;
+        margin-right: 2px;
         margin-block: 2px;
 }
 
@@ -53,6 +49,7 @@ body {
 
 img {
         width: 100%;
+        height: auto;
         object-fit: contain;
 }
 
@@ -63,4 +60,15 @@ a {
 
 a:hover {
         color: rebeccapurple;
+}
+
+@media (min-width:1000px) {
+        .contents {
+                display: flex;
+                gap: 2px;
+        }
+        .item2 {
+                min-width: 30%;
+                max-width: 40%;
+        }
 }
